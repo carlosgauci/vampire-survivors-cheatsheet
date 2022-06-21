@@ -52,7 +52,9 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
 
             {evolvedWithArr.map((i) => (
               <>
-                <span className="text-4xl">+</span>
+                <span key={i} className="text-4xl">
+                  +
+                </span>
                 <div className="flex flex-col items-center gap-1 cursor-pointer" onClick={() => setSelectedItem(i.trim())}>
                   <div className="relative w-9 lg:w-12">
                     <Image src={`/images/Sprite-${i.trim().replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={i.trim()} layout="responsive" width={80} height={80} priority />
@@ -91,7 +93,7 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
           <h3 className="text-3xl">Levels</h3>
           <ul>
             {item.levels.map((level) => (
-              <li className="text-xl leading-6">
+              <li key={level.level} className="text-xl leading-6">
                 {level.level}: {level.bonus}
               </li>
             ))}
@@ -105,7 +107,7 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
           <h3 className="text-3xl">Base Stats</h3>
           <ul>
             {item.stats.map((stat) => (
-              <li className="text-xl leading-6">
+              <li key={stat.title} className="text-xl leading-6">
                 {stat.title}: {stat.content}
               </li>
             ))}
