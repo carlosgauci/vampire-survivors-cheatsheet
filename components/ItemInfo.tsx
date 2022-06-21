@@ -11,8 +11,10 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
   const unitedWith = item.info[item.info.findIndex((i) => i.title === "United with")]?.content.split(/[,+]/) || [];
   const evolution = item.info[item.info.findIndex((i) => i.title === "Evolution")]?.content;
   const union = item.info[item.info.findIndex((i) => i.title === "Union")]?.content;
-
   const evolvedWithArr = [...evolvedWith, ...unitedWith];
+
+  const effects = item.info[item.info.findIndex((i) => i.title === "Effects")]?.content;
+  const stageItem = item.info[item.info.findIndex((i) => i.title === "Stage item")]?.content;
 
   return (
     <>
@@ -27,6 +29,12 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
           <p className="text-xl italic leading-6">{item.description}</p>
         </div>
       </div>
+
+      {/* Effects */}
+      {effects && <p className="text-xl">Effects: {effects.split(".").join(". ")}</p>}
+
+      {/* Stage Item? */}
+      {stageItem && <p className="text-xl">Stage Item: {stageItem}.</p>}
 
       {/* Evolution */}
       {(evolution || union) && (
