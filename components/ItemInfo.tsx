@@ -17,7 +17,7 @@ const ItemInfo = ({ item }: ItemInfoProps) => {
     <>
       {/* Image, name, desc */}
       <div className="flex gap-4 items-center">
-        <div className="relative w-24 shrink-0">
+        <div className="relative w-20 shrink-0">
           <Image src={`/images/Sprite-${item.name.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={item.name} layout="responsive" width={80} height={80} priority />
         </div>
 
@@ -34,7 +34,7 @@ const ItemInfo = ({ item }: ItemInfoProps) => {
 
           <div className="flex items-center gap-4">
             <div className="flex flex-col items-center gap-1">
-              <div className="relative w-12">
+              <div className="relative w-9 lg:w-12">
                 <Image src={`/images/Sprite-${item.name.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={item.name} layout="responsive" width={80} height={80} priority />
               </div>
               <span className="text-center text-lg leading-4">{item.name}</span>
@@ -44,7 +44,7 @@ const ItemInfo = ({ item }: ItemInfoProps) => {
               <>
                 <span className="text-4xl">+</span>
                 <div className="flex flex-col items-center gap-1">
-                  <div className="relative w-12">
+                  <div className="relative w-9 lg:w-12">
                     <Image src={`/images/Sprite-${i.trim().replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={i.trim()} layout="responsive" width={80} height={80} priority />
                   </div>
                   <span className="text-center text-lg leading-4">{i.trim()}</span>
@@ -56,7 +56,7 @@ const ItemInfo = ({ item }: ItemInfoProps) => {
 
             {evolution && (
               <div className="flex flex-col gap-1 items-center">
-                <div className="relative w-12">
+                <div className="relative w-9 lg:w-12">
                   <Image src={`/images/Sprite-${evolution.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={evolution.trim()} layout="responsive" width={80} height={80} priority />
                 </div>
                 <span className="text-center text-lg leading-4">{evolution.trim()}</span>
@@ -65,7 +65,7 @@ const ItemInfo = ({ item }: ItemInfoProps) => {
 
             {union && (
               <div className="flex flex-col gap-1 items-center">
-                <div className="relative w-12">
+                <div className="relative w-9 lg:w-12">
                   <Image src={`/images/Sprite-${union.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={union.trim()} layout="responsive" width={80} height={80} priority />
                 </div>
                 <span className="text-center text-lg leading-4">{union.trim()}</span>
