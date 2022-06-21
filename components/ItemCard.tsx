@@ -20,7 +20,7 @@ const ItemCard = ({ item, setHoveredItem, setSelectedItem, selectedItem, setShow
 
   return (
     <div onMouseEnter={() => setHoveredItem(name)} onMouseLeave={() => setHoveredItem("")} onClick={() => handleClick()}>
-      <div className={`relative cursor-pointer p-1 border-2 ${isSelected ? "border-borderLight bg-blue-800" : "border-transparent"}`}>
+      <div className={`relative cursor-pointer p-1 border-2 ${isSelected ? "border-borderLight" : "border-transparent"}`}>
         <Image src={`/images/Sprite-${name.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={name} layout="responsive" width={80} height={80} priority />
       </div>
     </div>
