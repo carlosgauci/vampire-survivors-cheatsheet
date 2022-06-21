@@ -51,7 +51,7 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
             </div>
 
             {evolvedWithArr.map((i) => (
-              <>
+              <div className="flex items-center gap-4" key={i}>
                 <span key={i} className="text-4xl">
                   +
                 </span>
@@ -61,7 +61,7 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
                   </div>
                   <span className="text-center text-lg leading-4">{i.trim()}</span>
                 </div>
-              </>
+              </div>
             ))}
 
             <span className="text-4xl">=</span>
