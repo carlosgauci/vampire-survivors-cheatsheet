@@ -27,7 +27,7 @@ const ItemCard = ({ item, setHoveredItem, setSelectedItem, selectedItem, setShow
           layout="responsive"
           width={80}
           height={80}
-          priority
+          priority={true}
           placeholder="blur"
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAIAAADwyuo0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIklEQVQImWPo6en5////7Nmz8/PzGRwdHdvb2728vBgYGACzzwr2uLekswAAAABJRU5ErkJggg=="
         />

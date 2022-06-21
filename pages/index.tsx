@@ -20,6 +20,7 @@ const Home: NextPage = () => {
         <title>Vampire Survivors Cheat Sheet</title>
         <meta name="description" content="Quickly view all weapons, passive items, and evolutions in Vampire Survivors." />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preload" href="/fonts/VT323-Regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
       </Head>
 
       {/* Bg img */}

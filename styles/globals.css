@@ -17,6 +17,15 @@
 
   body {
     @apply bg-body;
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  span,
+  li,
+  button {
     @apply font-body;
     @apply text-white;
   }
