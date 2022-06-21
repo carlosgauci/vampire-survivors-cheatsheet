@@ -43,20 +43,20 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
           <h3 className="text-3xl mb-2">Evolution</h3>
 
           <div className="flex items-center gap-4 flex-wrap">
-            <ItemInfoSection itemName={item.name} />
+            <ItemInfoSection itemName={item.name} setSelectedItem={setSelectedItem} />
 
             {evolvedWithArr.map((i) => (
               <div className="flex items-center gap-4" key={i}>
                 <span className="text-4xl">+</span>
-                <ItemInfoSection itemName={i} />
+                <ItemInfoSection itemName={i} setSelectedItem={setSelectedItem} />
               </div>
             ))}
 
             <span className="text-4xl">=</span>
 
-            {evolution && <ItemInfoSection itemName={evolution} />}
+            {evolution && <ItemInfoSection itemName={evolution} setSelectedItem={setSelectedItem} />}
 
-            {union && <ItemInfoSection itemName={union} />}
+            {union && <ItemInfoSection itemName={union} setSelectedItem={setSelectedItem} />}
           </div>
         </div>
       )}
@@ -94,11 +94,12 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
 
 interface ItemInfoSectionProps {
   itemName: string;
+  setSelectedItem: Dispatch<SetStateAction<string>>;
 }
 
-const ItemInfoSection = ({ itemName }: ItemInfoSectionProps) => {
+const ItemInfoSection = ({ itemName, setSelectedItem }: ItemInfoSectionProps) => {
   return (
-    <div className="flex flex-col items-center gap-1">
+    <div className="flex flex-col items-center gap-1 cursor-pointer" onClick={() => setSelectedItem(itemName.trim())}>
       <div className="relative w-9 lg:w-12">
         <Image src={`/images/Sprite-${itemName.trim().replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={itemName} layout="responsive" width={80} height={80} priority />
       </div>
