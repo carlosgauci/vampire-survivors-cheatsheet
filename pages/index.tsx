@@ -6,6 +6,8 @@ import bgImage from "../images/bg.jpg";
 import Items from "../components/Items";
 import InfoBox from "../components/InfoBox";
 import { useState } from "react";
+import { Transition } from "@headlessui/react";
+import Modal from "../components/Modal";
 
 const Home: NextPage = () => {
   const [hoveredItem, setHoveredItem] = useState("");
@@ -28,10 +30,21 @@ const Home: NextPage = () => {
 
       <main className="container h-full flex gap-4 xl:gap-6 overflow-hidden mb-4 xl:mb-6">
         <Items setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} />
-        <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+        <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} modal={false} />
       </main>
 
-      <footer></footer>
+      <Transition
+        className="fixed z-10"
+        show={selectedItem !== ""}
+        enter="transition-opacity duration-200"
+        enterFrom="opacity-10"
+        enterTo="opacity-100"
+        leave="transition-opacity duration-200"
+        leaveFrom="opacity-100"
+        leaveTo="opacity-0"
+      >
+        <Modal hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+      </Transition>
     </div>
   );
 };

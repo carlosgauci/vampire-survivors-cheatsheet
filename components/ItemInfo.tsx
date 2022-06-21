@@ -6,6 +6,7 @@ interface ItemInfoProps {
   item: Item;
   setSelectedItem: Dispatch<SetStateAction<string>>;
 }
+
 const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
   const evolvedWith = item.info[item.info.findIndex((i) => i.title === "Evolved with")]?.content.split(/[,+]/) || [];
   const unitedWith = item.info[item.info.findIndex((i) => i.title === "United with")]?.content.split(/[,+]/) || [];
