@@ -4565,16 +4565,40 @@
     "stats": [],
     "levels": [
       {
-        "level": "Spinach",
-        "bonus": "Armor"
+        "level": "1",
+        "bonus": "Channels dark powers to protect the bearer."
       },
       {
-        "level": "Spellbinder",
-        "bonus": "Duplicator"
+        "level": "2",
+        "bonus": "Health recovery increases by 0.1 HP per second. Max Health increases by 5%."
       },
       {
-        "level": "Tiragisú",
-        "bonus": "Skull O'Maniac"
+        "level": "3",
+        "bonus": "Health recovery increases by 0.1 HP per second. Max Health increases by 5%."
+      },
+      {
+        "level": "4",
+        "bonus": "Health recovery increases by 0.1 HP per second. Max Health increases by 5%."
+      },
+      {
+        "level": "5",
+        "bonus": "Health recovery increases by 0.1 HP per second. Max Health increases by 5%."
+      },
+      {
+        "level": "6",
+        "bonus": "Health recovery increases by 0.1 HP per second. Max Health increases by 5%."
+      },
+      {
+        "level": "7",
+        "bonus": "Health recovery increases by 0.1 HP per second. Max Health increases by 5%."
+      },
+      {
+        "level": "8",
+        "bonus": "Health recovery increases by 0.1 HP per second. Max Health increases by 5%."
+      },
+      {
+        "level": "9",
+        "bonus": "Health recovery increases by 0.1 HP per second. Max Health increases by 5%."
       }
     ]
   },
