@@ -13,7 +13,7 @@ interface ItemGridProps {
 
 const ItemGrid = ({ items, title, setHoveredItem, setSelectedItem, selectedItem }: ItemGridProps) => {
   return (
-    <section className="w-full">
+    <section className="w-full select-none">
       <h2 className="mb-4 text-2xl md:text-3xl text-center uppercase">{title}</h2>
       <div className="grid gap-4 justify-center" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(3.2rem, 1fr)" }}>
         {items.map((i) => (

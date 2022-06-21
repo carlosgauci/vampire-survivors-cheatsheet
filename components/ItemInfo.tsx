@@ -1,11 +1,12 @@
-import React from "react";
+import { Dispatch, SetStateAction } from "react";
 import Image from "next/image";
 import { Item } from "../types";
 
 interface ItemInfoProps {
   item: Item;
+  setSelectedItem: Dispatch<SetStateAction<string>>;
 }
-const ItemInfo = ({ item }: ItemInfoProps) => {
+const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
   const evolvedWith = item.info[item.info.findIndex((i) => i.title === "Evolved with")]?.content.split(/[,+]/) || [];
   const unitedWith = item.info[item.info.findIndex((i) => i.title === "United with")]?.content.split(/[,+]/) || [];
   const evolution = item.info[item.info.findIndex((i) => i.title === "Evolution")]?.content;
@@ -43,7 +44,7 @@ const ItemInfo = ({ item }: ItemInfoProps) => {
             {evolvedWithArr.map((i) => (
               <>
                 <span className="text-4xl">+</span>
-                <div className="flex flex-col items-center gap-1">
+                <div className="flex flex-col items-center gap-1 cursor-pointer" onClick={() => setSelectedItem(i.trim())}>
                   <div className="relative w-9 lg:w-12">
                     <Image src={`/images/Sprite-${i.trim().replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={i.trim()} layout="responsive" width={80} height={80} priority />
                   </div>
@@ -55,7 +56,7 @@ const ItemInfo = ({ item }: ItemInfoProps) => {
             <span className="text-4xl">=</span>
 
             {evolution && (
-              <div className="flex flex-col gap-1 items-center">
+              <div className="flex flex-col gap-1 items-center cursor-pointer" onClick={() => setSelectedItem(evolution.trim())}>
                 <div className="relative w-9 lg:w-12">
                   <Image src={`/images/Sprite-${evolution.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={evolution.trim()} layout="responsive" width={80} height={80} priority />
                 </div>
@@ -64,7 +65,7 @@ const ItemInfo = ({ item }: ItemInfoProps) => {
             )}
 
             {union && (
-              <div className="flex flex-col gap-1 items-center">
+              <div className="flex flex-col gap-1 items-center cursor-pointer" onClick={() => setSelectedItem(union.trim())}>
                 <div className="relative w-9 lg:w-12">
                   <Image src={`/images/Sprite-${union.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={union.trim()} layout="responsive" width={80} height={80} priority />
                 </div>

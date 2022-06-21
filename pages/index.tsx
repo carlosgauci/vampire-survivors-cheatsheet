@@ -28,7 +28,7 @@ const Home: NextPage = () => {
 
       <main className="container h-full flex gap-4 xl:gap-6 overflow-hidden mb-4 xl:mb-6">
         <Items setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} />
-        <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} />
+        <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
       </main>
 
       <footer></footer>
