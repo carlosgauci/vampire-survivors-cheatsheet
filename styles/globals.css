@@ -1,16 +1,35 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "VT323";
+    src: url("/fonts/VT323-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  body {
+    @apply bg-body;
+    @apply font-body;
+    @apply text-white;
+  }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@layer utilities {
+  .card {
+    @apply bg-bg;
+    @apply border-4;
+    @apply border-border;
+    @apply bg-opacity-90;
+    @apply border-opacity-90;
+  }
 
-* {
-  box-sizing: border-box;
+  .scrollbar {
+    @apply scrollbar-thin;
+    @apply scrollbar-track-bg;
+    @apply scrollbar-thumb-borderDark;
+  }
 }

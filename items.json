@@ -1,0 +1,5660 @@
+[
+  {
+    "name": "Whip",
+    "category": "Weapon",
+    "description": "Attacks horizontally, passes through enemies.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "WHIP"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Bloody Tear"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Hollow Heart"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration and Speed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.35 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "15"
+      },
+      {
+        "title": "Chance",
+        "content": "20%"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "2x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Attacks horizontally, passes through enemies."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "3",
+        "bonus": "Base damage up by 5."
+      },
+      {
+        "level": "4",
+        "bonus": "Base damage up by 5. Base area up by 10%."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 5."
+      },
+      {
+        "level": "6",
+        "bonus": "Base damage up by 5. Base area up by 10%."
+      },
+      {
+        "level": "7",
+        "bonus": "Base damage up by 5."
+      },
+      {
+        "level": "8",
+        "bonus": "Base damage up by 5."
+      }
+    ]
+  },
+  {
+    "name": "Vento Sacro",
+    "category": "Weapon",
+    "description": "Stronger with continuous movement. Can deal critical damage.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "VENTO"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Union",
+        "content": "Fuwalafuwaloo"
+      },
+      {
+        "title": "United with",
+        "content": "Bloody Tear"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Speed.Luck increases crit chance.Scales with MoveSpeed. Firing weapon based on animation frame changes."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "1"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "4"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.05 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "120"
+      },
+      {
+        "title": "Chance",
+        "content": "5%"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "2x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Stronger with continuous movement. Can deal critical damage."
+      },
+      {
+        "level": "2",
+        "bonus": "Base damage up by 1."
+      },
+      {
+        "level": "3",
+        "bonus": "Base area up by 33%. Fires 1 more projectile."
+      },
+      {
+        "level": "4",
+        "bonus": "Base damage up by 1."
+      },
+      {
+        "level": "5",
+        "bonus": "Base area up by 33%. Fires 1 more projectile."
+      },
+      {
+        "level": "6",
+        "bonus": "Base damage up by 1."
+      },
+      {
+        "level": "7",
+        "bonus": "Base area up by 33%. Fires 1 more projectile."
+      },
+      {
+        "level": "8",
+        "bonus": "Base damage up by 1."
+      }
+    ]
+  },
+  {
+    "name": "Hollow Heart",
+    "category": "Passive item",
+    "description": "Augments max health by 20%.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "MAXHEALTH"
+      },
+      {
+        "title": "Player stat",
+        "content": "Max Health"
+      },
+      {
+        "title": "Evolution",
+        "content": "Bloody Tear"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Whip"
+      },
+      {
+        "title": "Rarity",
+        "content": "90"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+20%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Multiplicative"
+      },
+      {
+        "title": "Max effect",
+        "content": "+149%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Mad Forest, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Augment max health by 20%."
+      },
+      {
+        "level": "2",
+        "bonus": "Max health increases by 20%"
+      },
+      {
+        "level": "3",
+        "bonus": "Max health increases by 20%"
+      },
+      {
+        "level": "4",
+        "bonus": "Max health increases by 20%"
+      },
+      {
+        "level": "5",
+        "bonus": "Max health increases by 20%"
+      }
+    ]
+  },
+  {
+    "name": "Bloody Tear",
+    "category": "Weapon",
+    "description": "Evolution of the whip. Can deal critical damage and absorb HP.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "VAMPIRICA"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Whip + Hollow Heart"
+      },
+      {
+        "title": "Union",
+        "content": "Fuwalafuwaloo"
+      },
+      {
+        "title": "United with",
+        "content": "Vento Sacro"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Restores 8 HP/attack if it hits any enemies with a crit.Ignores Duration and Speed.Luck increases crit chance."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "40"
+      },
+      {
+        "title": "Area",
+        "content": "1.3 (+10%)"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "2"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.35 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "15"
+      },
+      {
+        "title": "Chance",
+        "content": "10% (-10%)"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "2x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Magic Wand",
+    "category": "Weapon",
+    "description": "Fires at the nearest enemy.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "MAGIC_MISSILE"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Holy Wand"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Empty Tome"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "1"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.2 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "60"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Fires at the nearest enemy."
+      },
+      {
+        "level": "2",
+        "bonus": "Fire 1 more projectile."
+      },
+      {
+        "level": "3",
+        "bonus": "Cooldown reduced by 0.2 seconds."
+      },
+      {
+        "level": "4",
+        "bonus": "Fire 1 more projectile."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 10."
+      },
+      {
+        "level": "6",
+        "bonus": "Fire 1 more projectile."
+      },
+      {
+        "level": "7",
+        "bonus": "Passes through 1 more enemy."
+      },
+      {
+        "level": "8",
+        "bonus": "Base damage up by 10."
+      }
+    ]
+  },
+  {
+    "name": "Empty Tome",
+    "category": "Passive item",
+    "description": "Reduces weapons cooldown by 8%.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "COOLDOWN"
+      },
+      {
+        "title": "Player stat",
+        "content": "Cooldown"
+      },
+      {
+        "title": "Evolution",
+        "content": "Holy Wand"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Magic Wand"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "-8%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "-40%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Inlaid Library, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Reduces weapons cooldown by 8%."
+      },
+      {
+        "level": "2",
+        "bonus": "Cooldown reduced by 8.0%"
+      },
+      {
+        "level": "3",
+        "bonus": "Cooldown reduced by 8.0%"
+      },
+      {
+        "level": "4",
+        "bonus": "Cooldown reduced by 8.0%"
+      },
+      {
+        "level": "5",
+        "bonus": "Cooldown reduced by 8.0%"
+      }
+    ]
+  },
+  {
+    "name": "Holy Wand",
+    "category": "Weapon",
+    "description": "Evolution of the Magic Wand. Fires with no delay.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "HOLY_MISSILE"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Magic Wand + Empty Tome"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "30"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "2 (+100%)"
+      },
+      {
+        "title": "Amount",
+        "content": "4"
+      },
+      {
+        "title": "Penetration",
+        "content": "2"
+      },
+      {
+        "title": "Cooldown",
+        "content": "0.5 seconds (-0.5)"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "60"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Knife",
+    "category": "Weapon",
+    "description": "Fires quickly in the faced direction.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "KNIFE"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Thousand Edge"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Bracer"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "6.5"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "1"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.0 second"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "0.5"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "70"
+      },
+      {
+        "title": "Chance",
+        "content": "50%"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "3x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Fires quickly in the faced direction."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "3",
+        "bonus": "Fires 1 more projectile. Base damage up by 5."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "5",
+        "bonus": "Passes through 1 more enemy."
+      },
+      {
+        "level": "6",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "7",
+        "bonus": "Fires 1 more projectile. Base damage up by 5."
+      },
+      {
+        "level": "8",
+        "bonus": "Passes through 1 more enemy."
+      }
+    ]
+  },
+  {
+    "name": "Bracer",
+    "category": "Passive item",
+    "description": "Increases projectiles speed by 10%.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SPEED"
+      },
+      {
+        "title": "Player stat",
+        "content": "Speed"
+      },
+      {
+        "title": "Evolution",
+        "content": "Thousand Edge"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Knife"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+10%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+50%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Gallo Tower, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Increases projectiles speed by 10%."
+      },
+      {
+        "level": "2",
+        "bonus": "Base speed up by 10%"
+      },
+      {
+        "level": "3",
+        "bonus": "Base speed up by 10%"
+      },
+      {
+        "level": "4",
+        "bonus": "Base speed up by 10%"
+      },
+      {
+        "level": "5",
+        "bonus": "Base speed up by 10%"
+      }
+    ]
+  },
+  {
+    "name": "Thousand Edge",
+    "category": "Weapon",
+    "description": "Evolved Knife. Fires with no delay.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "THOUSAND"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Knife + Bracer"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "16.5"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1.5 (+50%)"
+      },
+      {
+        "title": "Amount",
+        "content": "6"
+      },
+      {
+        "title": "Penetration",
+        "content": "3"
+      },
+      {
+        "title": "Cooldown",
+        "content": "0.35 seconds (-0.65)"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.05 seconds (+0.01)"
+      },
+      {
+        "title": "Knockback",
+        "content": "0.5"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "70"
+      },
+      {
+        "title": "Chance",
+        "content": "50%"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "3x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Axe",
+    "category": "Weapon",
+    "description": "High damage, high area scaling.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "AXE"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Death Spiral"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Candelabrador"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "20"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "2 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "3"
+      },
+      {
+        "title": "Cooldown",
+        "content": "4.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.2 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "35"
+      },
+      {
+        "title": "Chance",
+        "content": "30%"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "2x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "High damage, high Area scaling."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "3",
+        "bonus": "Base damage up by 20."
+      },
+      {
+        "level": "4",
+        "bonus": "Passes through 2 more enemies."
+      },
+      {
+        "level": "5",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "6",
+        "bonus": "Base damage up by 20."
+      },
+      {
+        "level": "7",
+        "bonus": "Passes through 2 more enemies."
+      },
+      {
+        "level": "8",
+        "bonus": "Base Damage up by 20."
+      }
+    ]
+  },
+  {
+    "name": "Candelabrador",
+    "category": "Passive item",
+    "description": "Augments area of attacks by 10%.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "AREA"
+      },
+      {
+        "title": "Player stat",
+        "content": "Area"
+      },
+      {
+        "title": "Evolution",
+        "content": "Death Spiral"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Axe"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+10%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+50%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Dairy Plant, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Augments area of attacks by 10%."
+      },
+      {
+        "level": "2",
+        "bonus": "Base area up by 10%"
+      },
+      {
+        "level": "3",
+        "bonus": "Base area up by 10%"
+      },
+      {
+        "level": "4",
+        "bonus": "Base area up by 10%"
+      },
+      {
+        "level": "5",
+        "bonus": "Base area up by 10%"
+      }
+    ]
+  },
+  {
+    "name": "Death Spiral",
+    "category": "Weapon",
+    "description": "Evolved Axe. Passes through enemies.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SCYTHE"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Axe + Candelabrador"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "60 (-20)"
+      },
+      {
+        "title": "Area",
+        "content": "1.2 (+20%)"
+      },
+      {
+        "title": "Speed",
+        "content": "0.8 (-20%)"
+      },
+      {
+        "title": "Amount",
+        "content": "9 (+6)"
+      },
+      {
+        "title": "Duration",
+        "content": "Indefinite"
+      },
+      {
+        "title": "Penetration",
+        "content": "1000 (+993)"
+      },
+      {
+        "title": "Cooldown",
+        "content": "4.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.05 seconds (-0.15)"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "25 (-10)"
+      },
+      {
+        "title": "Chance",
+        "content": "30%"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "2x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Cross",
+    "category": "Weapon",
+    "description": "Aims at the nearest enemy, has a boomerang effect.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "CROSS"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Heaven Sword"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Clover"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "80"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "5"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "15"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Aims at nearest enemy, has boomerang effect."
+      },
+      {
+        "level": "2",
+        "bonus": "Base damage up by 10."
+      },
+      {
+        "level": "3",
+        "bonus": "Base speed up by 25%. Base area up by 10%."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 10."
+      },
+      {
+        "level": "6",
+        "bonus": "Base speed up by 25%. Base area up by 10%."
+      },
+      {
+        "level": "7",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "8",
+        "bonus": "Base damage up by 10."
+      }
+    ]
+  },
+  {
+    "name": "Clover",
+    "category": "Passive item",
+    "description": "Character gets 10% luckier.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "LUCK"
+      },
+      {
+        "title": "Player stat",
+        "content": "Luck"
+      },
+      {
+        "title": "Evolution",
+        "content": "Heaven Sword"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Cross"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+10%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+50%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Mad Forest, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Character gets 10% luckier."
+      },
+      {
+        "level": "2",
+        "bonus": "Chance to get lucky up by 10%"
+      },
+      {
+        "level": "3",
+        "bonus": "Chance to get lucky up by 10%"
+      },
+      {
+        "level": "4",
+        "bonus": "Chance to get lucky up by 10%"
+      },
+      {
+        "level": "5",
+        "bonus": "Chance to get lucky up by 10%"
+      }
+    ]
+  },
+  {
+    "name": "Heaven Sword",
+    "category": "Weapon",
+    "description": "Evolved Cross. Can do critical damage.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "HEAVENSWORD"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Cross + Clover"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration.Luck increases critical chance."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "77 (+42)"
+      },
+      {
+        "title": "Area",
+        "content": "1.2"
+      },
+      {
+        "title": "Speed",
+        "content": "2 (+50%)"
+      },
+      {
+        "title": "Amount",
+        "content": "1 (-2)"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "3.3 seconds (+1.3)"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.5 seconds (+0.4)"
+      },
+      {
+        "title": "Knockback",
+        "content": "6 (+5)"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "10 (-5)"
+      },
+      {
+        "title": "Chance",
+        "content": "10%"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "2.5x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "King Bible",
+    "category": "Weapon",
+    "description": "Orbits around the character.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "HOLYBOOK"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Unholy Vespers"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Spellbinder"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "80"
+      },
+      {
+        "title": "Effects",
+        "content": "Cooldown starts when active Duration ends.Scales with all stat bonuses."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "3.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "3.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "1.7 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "25"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Orbits around the character."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "3",
+        "bonus": "Base speed up by 30%. Base area up by 25%."
+      },
+      {
+        "level": "4",
+        "bonus": "Effect lasts 0.5 seconds longer. Base damage up by 10."
+      },
+      {
+        "level": "5",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "6",
+        "bonus": "Base speed up by 30%. Base area up by 25%."
+      },
+      {
+        "level": "7",
+        "bonus": "Effect lasts 0.5 seconds longer. Base damage up by 10."
+      },
+      {
+        "level": "8",
+        "bonus": "Fires 1 more projectile."
+      }
+    ]
+  },
+  {
+    "name": "Spellbinder",
+    "category": "Passive item",
+    "description": "Increases duration of weapon effects by 10%.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "DURATION"
+      },
+      {
+        "title": "Player stat",
+        "content": "Duration"
+      },
+      {
+        "title": "Evolution",
+        "content": "Unholy Vespers"
+      },
+      {
+        "title": "Evolved with",
+        "content": "King Bible"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+10%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+50%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Gallo Tower, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Increases duration of weapon effects by 10%."
+      },
+      {
+        "level": "2",
+        "bonus": "Effect lasts 10% longer"
+      },
+      {
+        "level": "3",
+        "bonus": "Effect lasts 10% longer"
+      },
+      {
+        "level": "4",
+        "bonus": "Effect lasts 10% longer"
+      },
+      {
+        "level": "5",
+        "bonus": "Effect lasts 10% longer"
+      }
+    ]
+  },
+  {
+    "name": "Unholy Vespers",
+    "category": "Weapon",
+    "description": "Evolved King Bible. Never Ends.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "VESPERS"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "King Bible + Spellbinder"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Cooldown no longer depends on Duration.Scales with all stat bonuses."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "30"
+      },
+      {
+        "title": "Area",
+        "content": "1.75 (+25%)"
+      },
+      {
+        "title": "Speed",
+        "content": "1.5 (-10%)"
+      },
+      {
+        "title": "Amount",
+        "content": "4"
+      },
+      {
+        "title": "Duration",
+        "content": "3.0 seconds (-1)"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "3.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "1.7 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "4 (+3)"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "25"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Fire Wand",
+    "category": "Weapon",
+    "description": "Fires at a random enemy, deals heavy damage.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "FIREBALL"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Hellfire"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Spinach"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "80"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "20"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "0.75"
+      },
+      {
+        "title": "Amount",
+        "content": "3"
+      },
+      {
+        "title": "Duration",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "1"
+      },
+      {
+        "title": "Cooldown",
+        "content": "3.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.02 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "15"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Fires at a random enemy, deals heavy damage."
+      },
+      {
+        "level": "2",
+        "bonus": "Base damage up by 10."
+      },
+      {
+        "level": "3",
+        "bonus": "Base damage up by 10. Base speed up by 20%."
+      },
+      {
+        "level": "4",
+        "bonus": "Base damage up by 10."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 10. Base speed up by 20%."
+      },
+      {
+        "level": "6",
+        "bonus": "Base damage up by 10."
+      },
+      {
+        "level": "7",
+        "bonus": "Base damage up by 10. Base speed up by 20%."
+      },
+      {
+        "level": "8",
+        "bonus": "Base damage up by 10."
+      }
+    ]
+  },
+  {
+    "name": "Spinach",
+    "category": "Passive item",
+    "description": "Raises inflicted damage by 10%.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "POWER"
+      },
+      {
+        "title": "Player stat",
+        "content": "Might"
+      },
+      {
+        "title": "Evolution",
+        "content": "Hellfire"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Fire Wand"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+10%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+50%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Mad Forest, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Raises inflicted damage by 10%."
+      },
+      {
+        "level": "2",
+        "bonus": "Base damage up by 10%"
+      },
+      {
+        "level": "3",
+        "bonus": "Base damage up by 10%"
+      },
+      {
+        "level": "4",
+        "bonus": "Base damage up by 10%"
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 10%"
+      }
+    ]
+  },
+  {
+    "name": "Hellfire",
+    "category": "Weapon",
+    "description": "Evolved Fire Wand. Passes through enemies.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "HELLFIRE"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Fire Wand + Spinach"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "100 (+10)"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1 (-35%)"
+      },
+      {
+        "title": "Amount",
+        "content": "2 (-1)"
+      },
+      {
+        "title": "Duration",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "3.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.2 seconds (+0.18)"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "10 (-5)"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Garlic",
+    "category": "Weapon",
+    "description": "Damages nearby enemies. Reduces resistance to knockback and freeze.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "GARLIC"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Soul Eater"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Pummarola"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "70"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Amount, Duration and Speed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "5"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.3 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "None"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "50"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Damages nearby enemies. Reduces resistance to knockback and freeze."
+      },
+      {
+        "level": "2",
+        "bonus": "Base area up by 40%. Base damage up by 2."
+      },
+      {
+        "level": "3",
+        "bonus": "Cooldown reduced by 0.1 seconds. Base damage up by 1."
+      },
+      {
+        "level": "4",
+        "bonus": "Base area up by 20%. Base damage up by 1."
+      },
+      {
+        "level": "5",
+        "bonus": "Cooldown reduced by 0.1 seconds. Base damage up by 2."
+      },
+      {
+        "level": "6",
+        "bonus": "Base area up by 20%. Base damage up by 1."
+      },
+      {
+        "level": "7",
+        "bonus": "Cooldown reduced by 0.1 seconds. Base damage up by 1."
+      },
+      {
+        "level": "8",
+        "bonus": "Base area up by 20%. Base damage up by 1."
+      }
+    ]
+  },
+  {
+    "name": "Pummarola",
+    "category": "Passive item",
+    "description": "Character recovers 0.2 HP per second.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "REGEN"
+      },
+      {
+        "title": "Player stat",
+        "content": "Recovery"
+      },
+      {
+        "title": "Evolution",
+        "content": "Soul Eater"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Garlic"
+      },
+      {
+        "title": "Rarity",
+        "content": "90"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+0.2"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+1.0"
+      },
+      {
+        "title": "Stage item",
+        "content": "Mad Forest, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Character recovers 0.2 HP per second."
+      },
+      {
+        "level": "2",
+        "bonus": "Health recovery increases by 0.2 HP per second."
+      },
+      {
+        "level": "3",
+        "bonus": "Health recovery increases by 0.2 HP per second."
+      },
+      {
+        "level": "4",
+        "bonus": "Health recovery increases by 0.2 HP per second."
+      },
+      {
+        "level": "5",
+        "bonus": "Health recovery increases by 0.2 HP per second."
+      }
+    ]
+  },
+  {
+    "name": "Soul Eater",
+    "category": "Weapon",
+    "description": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "VORTEX"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Garlic + Pummarola"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Amount, Duration and Speed.Has a chance to generate little hearts when killing enemies.Damage scales with damage healed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "20 (+5)"
+      },
+      {
+        "title": "Area",
+        "content": "3 (+100%)"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "None"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "50"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Santa Water",
+    "category": "Weapon",
+    "description": "Generates damaging zones.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "HOLYWATER"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "La Borra"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Attractorb"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Speed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "4.5 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.3 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "0.5 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "None"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "20"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Generates damaging zones."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile. Base area up by 20%."
+      },
+      {
+        "level": "3",
+        "bonus": "Base damage up by 10. Effect lasts 0.5 seconds longer."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile. Base area up by 20%."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 10. Effect lasts 0.3 seconds longer."
+      },
+      {
+        "level": "6",
+        "bonus": "Fires 1 more projectile. Base area up by 20%."
+      },
+      {
+        "level": "7",
+        "bonus": "Base damage up by 5. Effect lasts 0.3 seconds longer."
+      },
+      {
+        "level": "8",
+        "bonus": "Base damage up by 5. Base area up by 20%."
+      }
+    ]
+  },
+  {
+    "name": "Attractorb",
+    "category": "Passive item",
+    "description": "Character pickups items from further away.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "MAGNET"
+      },
+      {
+        "title": "Player stat",
+        "content": "Magnet"
+      },
+      {
+        "title": "Evolution",
+        "content": "La Borra"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Santa Water"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "See table."
+      },
+      {
+        "title": "Stacking",
+        "content": "Multiplicative"
+      },
+      {
+        "title": "Max effect",
+        "content": "+300%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Dairy Plant, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Character picks up items from further away."
+      },
+      {
+        "level": "2",
+        "bonus": "Pickup range increased by 33%."
+      },
+      {
+        "level": "3",
+        "bonus": "Pickup range increased by 25%."
+      },
+      {
+        "level": "4",
+        "bonus": "Pickup range increased by 20%."
+      },
+      {
+        "level": "5",
+        "bonus": "Pickup range increased by 33%."
+      }
+    ]
+  },
+  {
+    "name": "La Borra",
+    "category": "Weapon",
+    "description": "Evolved Santa water. Damaging zones follow you and grow when they move.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "BORA"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Santa Water + Attractorb"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Scales with all stat bonuses and MoveSpeed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "40"
+      },
+      {
+        "title": "Area",
+        "content": "2 (+20%)"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "4"
+      },
+      {
+        "title": "Duration",
+        "content": "4.0 seconds (+1)"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "4.0 seconds (-0.5)"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.3 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "0.5 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "None"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "30 (+10)"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Runetracer",
+    "category": "Weapon",
+    "description": "Passes through enemies, bounces around.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "DIAMOND"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "NO FUTURE"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Armor"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "80"
+      },
+      {
+        "title": "Effects",
+        "content": "Projectiles bounce from terrain and the edges of the screen.Scales with all stat bonuses."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "2.25 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "3.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.2 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "0.5 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "25"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Passes through enemies, bounces around."
+      },
+      {
+        "level": "2",
+        "bonus": "Base damage up by 5. Base speed up by 20%."
+      },
+      {
+        "level": "3",
+        "bonus": "Base damage up by 5. Effect lasts 0.3 seconds longer."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 5. Base speed up by 20%."
+      },
+      {
+        "level": "6",
+        "bonus": "Base damage up by 5. Effect lasts 0.3 seconds longer."
+      },
+      {
+        "level": "7",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "8",
+        "bonus": "Effect lasts 0.5 seconds longer."
+      }
+    ]
+  },
+  {
+    "name": "Armor",
+    "category": "Passive item",
+    "description": "Reduces incoming damage by 1.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "ARMOR"
+      },
+      {
+        "title": "Player stat",
+        "content": "Armor"
+      },
+      {
+        "title": "Evolution",
+        "content": "NO FUTURE"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Runetracer"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "-1"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "-5"
+      },
+      {
+        "title": "Stage item",
+        "content": "Dairy Plant, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Reduces incoming damage by 1."
+      },
+      {
+        "level": "2",
+        "bonus": "Reduces incoming damage by 1"
+      },
+      {
+        "level": "3",
+        "bonus": "Reduces incoming damage by 1"
+      },
+      {
+        "level": "4",
+        "bonus": "Reduces incoming damage by 1"
+      },
+      {
+        "level": "5",
+        "bonus": "Reduces incoming damage by 1"
+      }
+    ]
+  },
+  {
+    "name": "NO FUTURE",
+    "category": "Weapon",
+    "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "ROCHER"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Runetracer + Armor"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Projectiles bounce from terrain and the edges of the screen.Explodes when being hit by an enemy.Cooldown starts when active duration ends.Scales with all stat bonuses."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "30"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "2.8 (+140%)"
+      },
+      {
+        "title": "Amount",
+        "content": "1 (-2)"
+      },
+      {
+        "title": "Duration",
+        "content": "3.0 seconds (-0.25)"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.0 second (-2)"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds (-0.2)"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "0.5 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "40 (+15)"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Lightning Ring",
+    "category": "Weapon",
+    "description": "Strikes at random enemies.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "LIGHTNING"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Thunder Loop"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Duplicator"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "80"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Speed and Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "15"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "2"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "4.5 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.05 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "50"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Strikes at random enemies."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "3",
+        "bonus": "Base area up by 100%. Base damage up by 10."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "5",
+        "bonus": "Base area up by 100%. Base damage up by 20."
+      },
+      {
+        "level": "6",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "7",
+        "bonus": "Base area up by 100%. Base damage up by 20."
+      },
+      {
+        "level": "8",
+        "bonus": "Fires 1 more projectile."
+      }
+    ]
+  },
+  {
+    "name": "Duplicator",
+    "category": "Passive item",
+    "description": "Weapons fire more projectiles.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "AMOUNT"
+      },
+      {
+        "title": "Player stat",
+        "content": "Amount"
+      },
+      {
+        "title": "Evolution",
+        "content": "Thunder Loop"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Lightning Ring"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Max level",
+        "content": "2"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+1"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+2"
+      },
+      {
+        "title": "Stage item",
+        "content": "Cappella Magna, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Weapons fire more projectiles."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile."
+      }
+    ]
+  },
+  {
+    "name": "Thunder Loop",
+    "category": "Weapon",
+    "description": "Evolved Lightning Ring. Projectiles strike twice.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "LOOP"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Lightning Ring + Duplicator"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration and Speed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "65"
+      },
+      {
+        "title": "Area",
+        "content": "4"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "6"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "4.5 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds (-0.05)"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "50"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Pentagram",
+    "category": "Weapon",
+    "description": "Erases everything in sight.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "PENTAGRAM"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Gorgeous Moon"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Crown"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "60"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores everything but Cooldown and Luck."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "-"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "90 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "-2"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "10"
+      },
+      {
+        "title": "Chance",
+        "content": "10%"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Erases everything in sight."
+      },
+      {
+        "level": "2",
+        "bonus": "Cooldown reduced by 10 seconds."
+      },
+      {
+        "level": "3",
+        "bonus": "25% chance not to erase items."
+      },
+      {
+        "level": "4",
+        "bonus": "Cooldown reduced by 10 seconds."
+      },
+      {
+        "level": "5",
+        "bonus": "45% chance not to erase items."
+      },
+      {
+        "level": "6",
+        "bonus": "Cooldown reduced by 5 seconds."
+      },
+      {
+        "level": "7",
+        "bonus": "65% chance not to erase items."
+      },
+      {
+        "level": "8",
+        "bonus": "Cooldown reduced by 5 seconds."
+      }
+    ]
+  },
+  {
+    "name": "Crown",
+    "category": "Passive item",
+    "description": "Character gains 8% more experience.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "GROWTH"
+      },
+      {
+        "title": "Player stat",
+        "content": "Growth"
+      },
+      {
+        "title": "Evolution",
+        "content": "Gorgeous Moon"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Pentagram"
+      },
+      {
+        "title": "Rarity",
+        "content": "70"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+8%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+40%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Cappella Magna, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Character gains 8% more experience."
+      },
+      {
+        "level": "2",
+        "bonus": "XP gain increases by 8%."
+      },
+      {
+        "level": "3",
+        "bonus": "XP gain increases by 8%."
+      },
+      {
+        "level": "4",
+        "bonus": "XP gain increases by 8%."
+      },
+      {
+        "level": "5",
+        "bonus": "XP gain increases by 8%."
+      }
+    ]
+  },
+  {
+    "name": "Gorgeous Moon",
+    "category": "Weapon",
+    "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SIRE"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Pentagram + Crown"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores everything but Cooldown."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "-"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "60 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1 (+3)"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "-"
+      },
+      {
+        "title": "Chance",
+        "content": "100% (+35%)"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Gatti Amari",
+    "category": "Weapon",
+    "description": "Summons capricious projectiles. Might interact with pickups.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "GATTI"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Vicious Hunger"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Stone Mask"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Consumes pickups if they are left untouched which has unique effects on the cats.Scales with all stat bonuses."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "0.4"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "5.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "5.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.3 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "1.0 second"
+      },
+      {
+        "title": "Knockback",
+        "content": "0.1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "30"
+      },
+      {
+        "title": "Chance",
+        "content": "10%"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Summons capricious projectiles. Might interact with pickups."
+      },
+      {
+        "level": "2",
+        "bonus": "Base speed up by 20%."
+      },
+      {
+        "level": "3",
+        "bonus": "Effect lasts 1.5 seconds longer."
+      },
+      {
+        "level": "4",
+        "bonus": "Base speed up by 20%."
+      },
+      {
+        "level": "5",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "6",
+        "bonus": "Effect lasts 1.5 seconds longer."
+      },
+      {
+        "level": "7",
+        "bonus": "Base speed up by 20%."
+      },
+      {
+        "level": "8",
+        "bonus": "Fires 1 more projectile."
+      }
+    ]
+  },
+  {
+    "name": "Stone Mask",
+    "category": "Passive item",
+    "description": "Character earns 10% more coins.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "GREED"
+      },
+      {
+        "title": "Player stat",
+        "content": "Greed"
+      },
+      {
+        "title": "Evolution",
+        "content": "Vicious Hunger"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Gatti Amari"
+      },
+      {
+        "title": "Rarity",
+        "content": "100"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+10%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+50%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Inlaid Library, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Character earns 10% more coins."
+      },
+      {
+        "level": "2",
+        "bonus": "Coins value increases by 10%"
+      },
+      {
+        "level": "3",
+        "bonus": "Coins value increases by 10%"
+      },
+      {
+        "level": "4",
+        "bonus": "Coins value increases by 10%"
+      },
+      {
+        "level": "5",
+        "bonus": "Coins value increases by 10%"
+      }
+    ]
+  },
+  {
+    "name": "Vicious Hunger",
+    "category": "Weapon",
+    "description": "Evolved Gatti Amari. Might turn anything into gold.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "STIGRANGATTI"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Gatti Amari + Stone Mask"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Has a chance to transmute Pickup into Gold Coins."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "30 (+20)"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "2 (-1)"
+      },
+      {
+        "title": "Duration",
+        "content": "7.0 seconds (-1)"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "8.0 seconds (+3)"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.3 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "1.0 second"
+      },
+      {
+        "title": "Knockback",
+        "content": "0.1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "30"
+      },
+      {
+        "title": "Chance",
+        "content": "10%"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Song of Mana",
+    "category": "Weapon",
+    "description": "Attacks vertically, passes through enemies.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SONG"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Mannajja"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Skull O'Maniac"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Amount and Speed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "0.5 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "1.0 second"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "10"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Attacks vertically, passes through enemies."
+      },
+      {
+        "level": "2",
+        "bonus": "Base area up by 100%."
+      },
+      {
+        "level": "3",
+        "bonus": "Cooldown increased by 0.8 seconds. Effect lasts 0.5 seconds longer."
+      },
+      {
+        "level": "4",
+        "bonus": "Base damage up by 10. Base area up by 25%."
+      },
+      {
+        "level": "5",
+        "bonus": "Cooldown increased by 0.8 seconds. Effect lasts 0.5 seconds longer."
+      },
+      {
+        "level": "6",
+        "bonus": "Base damage up by 10. Base area up by 25%."
+      },
+      {
+        "level": "7",
+        "bonus": "Cooldown increased by 0.8 seconds. Effect lasts 0.5 seconds longer."
+      },
+      {
+        "level": "8",
+        "bonus": "Base damage up by 10. Base area up by 25%."
+      }
+    ]
+  },
+  {
+    "name": "Skull O'Maniac",
+    "category": "Passive item",
+    "description": "Increases enemy speed, health, quantity, and frequency by 10%.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "CURSE"
+      },
+      {
+        "title": "Player stat",
+        "content": "Curse"
+      },
+      {
+        "title": "Evolution",
+        "content": "Mannajja"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Song of Mana"
+      },
+      {
+        "title": "Rarity",
+        "content": "40"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+10%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+50%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Mad Forest, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 10%."
+      },
+      {
+        "level": "2",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 10%."
+      },
+      {
+        "level": "3",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 10%."
+      },
+      {
+        "level": "4",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 10%."
+      },
+      {
+        "level": "5",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 10%."
+      }
+    ]
+  },
+  {
+    "name": "Mannajja",
+    "category": "Weapon",
+    "description": "Evolved Song of Mana. Might slow enemies down.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "MANNAGGIA"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Song of Mana + Skull O'Maniac"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Amount and Speed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "40"
+      },
+      {
+        "title": "Area",
+        "content": "6 (+325%)"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "4.5 seconds (+0.25)"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "1.0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "10"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Shadow Pinion",
+    "category": "Weapon",
+    "description": "Generates damaging zones when moving, strikes when stopping.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "TRAPANO"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Valkyrie Turner"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Wings"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Scales with all stat bonuses.Scales with MoveSpeed. Firing weapon based on animation frame changes."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "1.0 second"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "6.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.3 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "100"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Generates damaging zones when moving, strikes when stopping."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile"
+      },
+      {
+        "level": "3",
+        "bonus": "Base damage up by 5"
+      },
+      {
+        "level": "4",
+        "bonus": "Effect lasts 0.3 seconds longer"
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 5"
+      },
+      {
+        "level": "6",
+        "bonus": "Effect lasts 0.3 seconds longer"
+      },
+      {
+        "level": "7",
+        "bonus": "Base damage up by 5"
+      },
+      {
+        "level": "8",
+        "bonus": "Effect lasts 0.3 seconds longer"
+      }
+    ]
+  },
+  {
+    "name": "Wings",
+    "category": "Passive item",
+    "description": "Character moves 10% faster.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "MOVESPEED"
+      },
+      {
+        "title": "Player stat",
+        "content": "MoveSpeed"
+      },
+      {
+        "title": "Evolution",
+        "content": "Valkyrie Turner"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Shadow Pinion"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Max level",
+        "content": "5"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+10%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+50%"
+      },
+      {
+        "title": "Stage item",
+        "content": "Dairy Plant, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Character moves 10% faster."
+      },
+      {
+        "level": "2",
+        "bonus": "Movement speed increases by 10%"
+      },
+      {
+        "level": "3",
+        "bonus": "Movement speed increases by 10%"
+      },
+      {
+        "level": "4",
+        "bonus": "Movement speed increases by 10%"
+      },
+      {
+        "level": "5",
+        "bonus": "Movement speed increases by 10%"
+      }
+    ]
+  },
+  {
+    "name": "Valkyrie Turner",
+    "category": "Weapon",
+    "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "TRAPANO2"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Shadow Pinion + Wings"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Scales with all stat bonuses.Scales with MoveSpeed. Firing weapon based on animation frame changes."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "35 (+10)"
+      },
+      {
+        "title": "Area",
+        "content": "1.4 (+40%)"
+      },
+      {
+        "title": "Speed",
+        "content": "3.5 (+250%)"
+      },
+      {
+        "title": "Amount",
+        "content": "1 (-1)"
+      },
+      {
+        "title": "Duration",
+        "content": "2.0 seconds (+0.25)"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "6.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.3 seconds"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "100"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Clock Lancet",
+    "category": "Weapon",
+    "description": "Chance to freeze enemies in time.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "LANCET"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Infinite Corridor"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Silver Ring,  Gold Ring"
+      },
+      {
+        "title": "Max level",
+        "content": "7"
+      },
+      {
+        "title": "Rarity",
+        "content": "70"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Might, Amount, Speed, and Area."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "-"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "None"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "10"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Chance to freeze enemies in time."
+      },
+      {
+        "level": "2",
+        "bonus": "Effect lasts 1.0 seconds longer."
+      },
+      {
+        "level": "3",
+        "bonus": "Cooldown reduced by 0.5 seconds."
+      },
+      {
+        "level": "4",
+        "bonus": "Effect lasts 1.0 seconds longer."
+      },
+      {
+        "level": "5",
+        "bonus": "Effect lasts 1.0 seconds longer."
+      },
+      {
+        "level": "6",
+        "bonus": "Cooldown reduced by 0.5 seconds."
+      },
+      {
+        "level": "7",
+        "bonus": "Effect lasts 1.0 seconds longer."
+      }
+    ]
+  },
+
+  {
+    "name": "Silver Ring",
+    "category": "Passive item",
+    "description": "Wear ... Clock ...",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SILVER"
+      },
+      {
+        "title": "Player stat",
+        "content": "Duration, Area"
+      },
+      {
+        "title": "Evolution",
+        "content": "Infinite Corridor"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Clock Lancet + Gold Ring"
+      },
+      {
+        "title": "Rarity",
+        "content": "10"
+      },
+      {
+        "title": "Max level",
+        "content": "9"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+5%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+40%"
+      },
+      {
+        "title": "Stage item",
+        "content": "All Stages"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Wear ... Clock ..."
+      },
+      {
+        "level": "2",
+        "bonus": "Effect last 5% longer. Base area up by 5%."
+      },
+      {
+        "level": "3",
+        "bonus": "Effect last 5% longer. Base area up by 5%."
+      },
+      {
+        "level": "4",
+        "bonus": "Effect last 5% longer. Base area up by 5%."
+      },
+      {
+        "level": "5",
+        "bonus": "Effect last 5% longer. Base area up by 5%."
+      },
+      {
+        "level": "6",
+        "bonus": "Effect last 5% longer. Base area up by 5%."
+      },
+      {
+        "level": "7",
+        "bonus": "Effect last 5% longer. Base area up by 5%."
+      },
+      {
+        "level": "8",
+        "bonus": "Effect last 5% longer. Base area up by 5%."
+      },
+      {
+        "level": "9",
+        "bonus": "Effect last 5% longer. Base area up by 5%."
+      }
+    ]
+  },
+
+  {
+    "name": "Gold Ring",
+    "category": "Passive item",
+    "description": "... With ... Lancet",
+    "info": [
+      {
+        "title": "ID",
+        "content": "GOLD"
+      },
+      {
+        "title": "Player stat",
+        "content": "Curse"
+      },
+      {
+        "title": "Evolution",
+        "content": "Infinite Corridor"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Clock Lancet + Silver Ring"
+      },
+      {
+        "title": "Rarity",
+        "content": "10"
+      },
+      {
+        "title": "Max level",
+        "content": "9"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+5%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+40%"
+      },
+      {
+        "title": "Stage item",
+        "content": "All Stages"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "... With ... Lancet"
+      },
+      {
+        "level": "2",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "3",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "4",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "5",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "6",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "7",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "8",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "9",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      }
+    ]
+  },
+
+  {
+    "name": "Laurel",
+    "category": "Weapon",
+    "description": "Shields from damage while active.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "LAUREL"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Crimson Shroud"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Metaglio Left,  Metaglio Right"
+      },
+      {
+        "title": "Max level",
+        "content": "7"
+      },
+      {
+        "title": "Rarity",
+        "content": "60"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores everything but Cooldown."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "1"
+      },
+      {
+        "title": "Cooldown",
+        "content": "10 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "5"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Shields from damage while active."
+      },
+      {
+        "level": "2",
+        "bonus": "Cooldown reduced by 0.5 seconds. Shield invulnerability increased by 0.2 seconds."
+      },
+      {
+        "level": "3",
+        "bonus": "Cooldown reduced by 0.5 seconds. Shield invulnerability increased by 0.2 seconds."
+      },
+      {
+        "level": "4",
+        "bonus": "Gains 1 additional charge."
+      },
+      {
+        "level": "5",
+        "bonus": "Cooldown reduced by 0.5 seconds. Shield invulnerability increased by 0.2 seconds."
+      },
+      {
+        "level": "6",
+        "bonus": "Cooldown reduced by 0.5 seconds. Shield invulnerability increased by 0.2 seconds."
+      },
+      {
+        "level": "7",
+        "bonus": "Gains 1 additional charge."
+      }
+    ]
+  },
+  {
+    "name": "Metaglio Left",
+    "category": "Passive item",
+    "description": "Channels dark powers to protect the bearer.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "LEFT"
+      },
+      {
+        "title": "Player stat",
+        "content": "Recovery, Max Health"
+      },
+      {
+        "title": "Evolution",
+        "content": "Crimson Shroud"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Laurel + Metaglio Right"
+      },
+      {
+        "title": "Rarity",
+        "content": "10"
+      },
+      {
+        "title": "Max level",
+        "content": "9"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+0.1, +5%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive, Multiplicative"
+      },
+      {
+        "title": "Max effect",
+        "content": "+0.8, +47.7%"
+      },
+      {
+        "title": "Stage item",
+        "content": "All Stages"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "Spinach",
+        "bonus": "Armor"
+      },
+      {
+        "level": "Spellbinder",
+        "bonus": "Duplicator"
+      },
+      {
+        "level": "Tiragisú",
+        "bonus": "Skull O'Maniac"
+      }
+    ]
+  },
+
+  {
+    "name": "Metaglio Right",
+    "category": "Passive item",
+    "description": "Channels dark powers to curse the bearer.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "RIGHT"
+      },
+      {
+        "title": "Player stat",
+        "content": "Curse"
+      },
+      {
+        "title": "Evolution",
+        "content": "Crimson Shroud"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Laurel + Metaglio Left"
+      },
+      {
+        "title": "Rarity",
+        "content": "10"
+      },
+      {
+        "title": "Max level",
+        "content": "9"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+5%"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+40%"
+      },
+      {
+        "title": "Stage item",
+        "content": "All Stages"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Channels dark powers to curse the bearer."
+      },
+      {
+        "level": "2",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "3",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "4",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "5",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "6",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "7",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "8",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      },
+      {
+        "level": "9",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 5%."
+      }
+    ]
+  },
+
+  {
+    "name": "Phiera Der Tuphello",
+    "category": "Weapon",
+    "description": "Fires quickly in four fixed directions.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "GUNS"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Phieraggi"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Tiragisú"
+      },
+      {
+        "title": "United with",
+        "content": "Eight The Sparrow"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "5"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "1"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.4 second"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.2 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "0.1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "100"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Fires quickly in four fixed directions."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "3",
+        "bonus": "Passes through 2 more enemies."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 5."
+      },
+      {
+        "level": "6",
+        "bonus": "Passes through 2 more enemies."
+      },
+      {
+        "level": "7",
+        "bonus": "Base speed up by 50%. Base damage up by 5."
+      },
+      {
+        "level": "8",
+        "bonus": "Passes through 2 more enemies."
+      }
+    ]
+  },
+  {
+    "name": "Eight The Sparrow",
+    "category": "Weapon",
+    "description": "Fires quickly in four fixed directions.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "GUNS2"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Evolution",
+        "content": "Phieraggi"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Tiragisú"
+      },
+      {
+        "title": "United with",
+        "content": "Phiera Der Tuphello"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "5"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "1"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.4 second"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.2 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "0.1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "100"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "Yes"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Fires quickly in four fixed directions."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "3",
+        "bonus": "Passes through 2 more enemies."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 5."
+      },
+      {
+        "level": "6",
+        "bonus": "Passes through 2 more enemies."
+      },
+      {
+        "level": "7",
+        "bonus": "Base speed up by 50%. Base damage up by 5."
+      },
+      {
+        "level": "8",
+        "bonus": "Passes through 2 more enemies."
+      }
+    ]
+  },
+  {
+    "name": "Tiragisú",
+    "category": "Passive item",
+    "description": "Revives once with 50% health.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "REVIVAL"
+      },
+      {
+        "title": "Player stat",
+        "content": "Revival"
+      },
+      {
+        "title": "Evolution",
+        "content": "Phieraggi"
+      },
+      {
+        "title": "Evolved with",
+        "content": "Phiera Der Tuphello + Eight The Sparrow"
+      },
+      {
+        "title": "Rarity",
+        "content": "40"
+      },
+      {
+        "title": "Max level",
+        "content": "2"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "+1"
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+2"
+      },
+      {
+        "title": "Stage item",
+        "content": "Cappella Magna, Moongolow"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Revives once with 50% health."
+      },
+      {
+        "level": "2",
+        "bonus": "Adds 1 Revival."
+      }
+    ]
+  },
+  {
+    "name": "Phieraggi",
+    "category": "Weapon",
+    "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "GUNS3"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution, Union"
+      },
+      {
+        "title": "Requires",
+        "content": "Phiera Der Tuphello + Eight The Sparrow+ Tiragisú"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Duration.Acquisition will free a weapon slot."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "15"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1 (-0.5)"
+      },
+      {
+        "title": "Amount",
+        "content": "4 (+1)"
+      },
+      {
+        "title": "Penetration",
+        "content": "7"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.4 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds (-0.1)"
+      },
+      {
+        "title": "Hitbox Delay",
+        "content": "0.2 seconds (+0.2)"
+      },
+      {
+        "title": "Knockback",
+        "content": "0.05 (-0.05)"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "200 (+100)"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Peachone",
+    "category": "Weapon",
+    "description": "Bombards in a circular area.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SILF"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Union",
+        "content": "Vandalier"
+      },
+      {
+        "title": "United with",
+        "content": "Ebony Wings"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Area orbits clockwise around the player.Scales with all stat bonuses and MoveSpeed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "0.8"
+      },
+      {
+        "title": "Amount",
+        "content": "4"
+      },
+      {
+        "title": "Duration",
+        "content": "4.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.0 second"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.025 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "2"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "60"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Bombards in a circling zone."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile. Base Area up by 40%."
+      },
+      {
+        "level": "3",
+        "bonus": "Fires 1 more projectile. Base damage up by 10."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile. Cooldown reduced by 0.3 seconds."
+      },
+      {
+        "level": "5",
+        "bonus": "Fires 1 more projectile. Base area up by 40%."
+      },
+      {
+        "level": "6",
+        "bonus": "Fires 1 more projectile. Base damage up by 10."
+      },
+      {
+        "level": "7",
+        "bonus": "Fires 1 more projectile. Cooldown reduced by 0.3 seconds."
+      },
+      {
+        "level": "8",
+        "bonus": "Fires 1 more projectile. Base area up by 40%."
+      }
+    ]
+  },
+  {
+    "name": "Ebony Wings",
+    "category": "Weapon",
+    "description": "Bombards in a circular area.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SILF2"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+      {
+        "title": "Union",
+        "content": "Vandalier"
+      },
+      {
+        "title": "United with",
+        "content": "Peachone"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Area orbits counterclockwise around the player.Scales with all stat bonuses and MoveSpeed."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "0.8"
+      },
+      {
+        "title": "Amount",
+        "content": "4"
+      },
+      {
+        "title": "Duration",
+        "content": "4.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.0 second"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.025 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "2"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "60"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Bombards in a circling zone."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile. Base area up by 40%."
+      },
+      {
+        "level": "3",
+        "bonus": "Fires 1 more projectile. Base damage up by 10."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile. Cooldown reduced by 0.3 seconds."
+      },
+      {
+        "level": "5",
+        "bonus": "Fires 1 more projectile. Base area up by 40%."
+      },
+      {
+        "level": "6",
+        "bonus": "Fires 1 more projectile. Base damage up by 10."
+      },
+      {
+        "level": "7",
+        "bonus": "Fires 1 more projectile. Cooldown reduced by 0.3."
+      },
+      {
+        "level": "8",
+        "bonus": "Fires 1 more projectile. Base area up by 40%."
+      }
+    ]
+  },
+  {
+    "name": "Vandalier",
+    "category": "Weapon",
+    "description": "Union of Peachone and Ebony Wings.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SILF3"
+      },
+      {
+        "title": "Type",
+        "content": "Union"
+      },
+      {
+        "title": "Requires",
+        "content": "Peachone + Ebony Wings"
+      },
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Has two areas that circulate in both directions.Acquisition will free a weapon slot.Scales with all stat bonuses."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "28 (-2)"
+      },
+      {
+        "title": "Area",
+        "content": "2.2"
+      },
+      {
+        "title": "Speed",
+        "content": "1 (+20%)"
+      },
+      {
+        "title": "Amount",
+        "content": "20 (-2)"
+      },
+      {
+        "title": "Duration",
+        "content": "4.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.0 second (+0.5)"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.025 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "2"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "80 (+20)"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+
+  {
+    "name": "Fuwalafuwaloo",
+    "category": "Weapon",
+    "description": "Union of Vento Sacro and Bloody Tear. Critical hits might generate explosions.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "VENTO2"
+      },
+      {
+        "title": "Type",
+        "content": "Union"
+      },
+      {
+        "title": "Requires",
+        "content": "Vento Sacro + Bloody Tear"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "50"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Speed.Luck increases crit chance.Scales with MoveSpeed. Firing weapon based on animation frame changes.Restores 8 HP/attack if it hits any enemies with a crit.Acquisition will free a weapon slot."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "20 (+15)"
+      },
+      {
+        "title": "Area",
+        "content": "2 (+1%)"
+      },
+      {
+        "title": "Speed",
+        "content": "2 (+100%)"
+      },
+      {
+        "title": "Amount",
+        "content": "8 (+1)"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "2.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.05 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "120"
+      },
+      {
+        "title": "Chance",
+        "content": "5%"
+      },
+      {
+        "title": "Critical Multiplier",
+        "content": "2x"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Torrona's Box",
+    "category": "Passive item",
+    "description": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "PANDORA"
+      },
+      {
+        "title": "Player stat",
+        "content": "Might, Speed, Duration, Area, Curse"
+      },
+      {
+        "title": "Evolution",
+        "content": "-"
+      },
+      {
+        "title": "Rarity",
+        "content": "40"
+      },
+      {
+        "title": "Max level",
+        "content": "9"
+      },
+      {
+        "title": "Bonus per level",
+        "content": "See table."
+      },
+      {
+        "title": "Stacking",
+        "content": "Additive"
+      },
+      {
+        "title": "Max effect",
+        "content": "+25%, +100%"
+      },
+      {
+        "title": "Stage item",
+        "content": "None"
+      }
+    ],
+    "stats": [],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Cursed item, but increases Might, Projectile Speed, Duration, and Area by 4%."
+      },
+      {
+        "level": "2",
+        "bonus": "Increases Might, Projectile Speed, Duration, and Area by 3%."
+      },
+      {
+        "level": "3",
+        "bonus": "Increases Might, Projectile Speed, Duration, and Area by 3%."
+      },
+      {
+        "level": "4",
+        "bonus": "Increases Might, Projectile Speed, Duration, and Area by 3%."
+      },
+      {
+        "level": "5",
+        "bonus": "Increases Might, Projectile Speed, Duration, and Area by 3%."
+      },
+      {
+        "level": "6",
+        "bonus": "Increases Might, Projectile Speed, Duration, and Area by 3%."
+      },
+      {
+        "level": "7",
+        "bonus": "Increases Might, Projectile Speed, Duration, and Area by 3%."
+      },
+      {
+        "level": "8",
+        "bonus": "Increases Might, Projectile Speed, Duration, and Area by 3%."
+      },
+      {
+        "level": "9",
+        "bonus": "Increases enemy speed, health, quantity, and frequency by 100%."
+      }
+    ]
+  },
+  {
+    "name": "Crimson Shroud",
+    "category": "Weapon",
+    "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "SHROUD"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Laurel + Metaglio Left+ Metaglio Right"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Speed, Duration, and Amount.Armor and Curse scale with retaliatory damage."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "0 (-10)"
+      },
+      {
+        "title": "Area",
+        "content": "2 (+100%)"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Penetration",
+        "content": "1"
+      },
+      {
+        "title": "Cooldown",
+        "content": "8.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.1 seconds (+0.1)"
+      },
+      {
+        "title": "Knockback",
+        "content": "20 (+19)"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "5"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  },
+  {
+    "name": "Infinite Corridor",
+    "category": "Weapon",
+    "description": "Evolved Clock Lancet. Halves enemies health.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "CORRIDOR"
+      },
+      {
+        "title": "Type",
+        "content": "Evolution"
+      },
+      {
+        "title": "Requires",
+        "content": "Clock Lancet + Silver Ring+ Gold Ring"
+      },
+      {
+        "title": "Max level",
+        "content": "1"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Ignores Might, Speed, Amount, and Area."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "-"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "1"
+      },
+      {
+        "title": "Duration",
+        "content": "6.0 seconds"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "1.0 seconds"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "None"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "10"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": []
+  }
+]
