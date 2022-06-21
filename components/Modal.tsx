@@ -6,23 +6,22 @@ interface ModalProps {
   hoveredItem: string;
   selectedItem: string;
   setSelectedItem: Dispatch<SetStateAction<string>>;
+  setShowModal: Dispatch<SetStateAction<boolean>>;
 }
 
-const Modal = ({ hoveredItem, selectedItem, setSelectedItem }: ModalProps) => {
+const Modal = ({ hoveredItem, selectedItem, setSelectedItem, setShowModal }: ModalProps) => {
   return (
-    <div className="fixed inset-0 h-full md:hidden z-50 bg-black bg-opacity-70 p-4 flex flex-col overflow-auto" onClick={() => setSelectedItem("")}>
-      <div className="mx-auto bg-black" onClick={(e) => e.stopPropagation()}>
-        <Transition.Child
-          enter="transform transition-transform duration-200 ease-linear"
-          enterFrom="translate-y-10"
-          enterTo="translate-y-0"
-          leave="transform transition-transform duration-200 ease-linear"
-          leaveFrom="translate-y-0"
-          leaveTo="translate-y-10"
-        >
-          <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} modal={true} />
-        </Transition.Child>
-      </div>
+    <div className="mx-auto h-full flex overflow-hidden bg-transparent" onClick={(e) => e.stopPropagation()}>
+      <Transition.Child
+        enter="transform transition-transform duration-300 ease-linear"
+        enterFrom="translate-y-10"
+        enterTo="translate-y-0"
+        leave="transform transition-transform duration-300 ease-linear"
+        leaveFrom="translate-y-0"
+        leaveTo="translate-y-10"
+      >
+        <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} modal={true} setShowModal={setShowModal} />
+      </Transition.Child>
     </div>
   );
 };

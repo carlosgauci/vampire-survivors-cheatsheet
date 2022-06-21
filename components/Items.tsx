@@ -6,10 +6,10 @@ import { Dispatch, SetStateAction } from "react";
 interface ItemsProps {
   setHoveredItem: Dispatch<SetStateAction<string>>;
   setSelectedItem: Dispatch<SetStateAction<string>>;
+  setShowModal: Dispatch<SetStateAction<boolean>>;
   selectedItem: string;
 }
-
-const Items = ({ setHoveredItem, setSelectedItem, selectedItem }: ItemsProps) => {
+const Items = ({ setHoveredItem, setSelectedItem, selectedItem, setShowModal }: ItemsProps) => {
   let weapons: Item[] = [];
   let passives: Item[] = [];
   let evolutions: Item[] = [];
@@ -26,9 +26,9 @@ const Items = ({ setHoveredItem, setSelectedItem, selectedItem }: ItemsProps) =>
   return (
     <section className="w-full max-w-4xl flex flex-col">
       <div className="card p-6 flex flex-col gap-10 overflow-y-auto scrollbar">
-        <ItemGrid items={weapons} title="Weapons" setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} />
-        <ItemGrid items={passives} title="Passive Items" setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} />
-        <ItemGrid items={evolutions} title="Evolutions / Unions" setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} />
+        <ItemGrid items={weapons} title="Weapons" setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} setShowModal={setShowModal} />
+        <ItemGrid items={passives} title="Passive Items" setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} setShowModal={setShowModal} />
+        <ItemGrid items={evolutions} title="Evolutions / Unions" setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} setShowModal={setShowModal} />
       </div>
     </section>
   );

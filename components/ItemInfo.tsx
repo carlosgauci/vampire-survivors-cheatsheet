@@ -52,9 +52,7 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
 
             {evolvedWithArr.map((i) => (
               <div className="flex items-center gap-4" key={i}>
-                <span key={i} className="text-4xl">
-                  +
-                </span>
+                <span className="text-4xl">+</span>
                 <div className="flex flex-col items-center gap-1 cursor-pointer" onClick={() => setSelectedItem(i.trim())}>
                   <div className="relative w-9 lg:w-12">
                     <Image src={`/images/Sprite-${i.trim().replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={i.trim()} layout="responsive" width={80} height={80} priority />

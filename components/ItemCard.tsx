@@ -6,16 +6,20 @@ interface ItemCardProps {
   item: Item;
   setHoveredItem: Dispatch<SetStateAction<string>>;
   setSelectedItem: Dispatch<SetStateAction<string>>;
+  setShowModal: Dispatch<SetStateAction<boolean>>;
   selectedItem: string;
 }
-
-const ItemCard = ({ item, setHoveredItem, setSelectedItem, selectedItem }: ItemCardProps) => {
+const ItemCard = ({ item, setHoveredItem, setSelectedItem, selectedItem, setShowModal }: ItemCardProps) => {
   const { name } = item;
-
   const isSelected = selectedItem === name;
 
+  const handleClick = () => {
+    setSelectedItem(name);
+    setShowModal(true);
+  };
+
   return (
-    <div onMouseEnter={() => setHoveredItem(name)} onMouseLeave={() => setHoveredItem("")} onClick={() => setSelectedItem(name)}>
+    <div onMouseEnter={() => setHoveredItem(name)} onMouseLeave={() => setHoveredItem("")} onClick={() => handleClick()}>
       <div className={`relative cursor-pointer p-1 border-2 ${isSelected ? "border-borderLight bg-blue-800" : "border-transparent"}`}>
         <Image src={`/images/Sprite-${name.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={name} layout="responsive" width={80} height={80} priority />
       </div>

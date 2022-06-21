@@ -12,6 +12,7 @@ import Modal from "../components/Modal";
 const Home: NextPage = () => {
   const [hoveredItem, setHoveredItem] = useState("");
   const [selectedItem, setSelectedItem] = useState("");
+  const [showModal, setShowModal] = useState(false);
 
   return (
     <div className="max-h-screen h-full overflow-hidden flex flex-col">
@@ -29,21 +30,22 @@ const Home: NextPage = () => {
       <Header />
 
       <main className="container h-full flex gap-4 xl:gap-6 overflow-hidden mb-4 xl:mb-6">
-        <Items setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} />
-        <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} modal={false} />
+        <Items setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} setShowModal={setShowModal} />
+        <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} modal={false} setShowModal={setShowModal} />
       </main>
 
       <Transition
-        className="fixed z-10"
-        show={selectedItem !== ""}
-        enter="transition-opacity duration-200"
-        enterFrom="opacity-10"
+        className="fixed inset-0 h-full md:hidden z-50 bg-black bg-opacity-70 p-4 flex flex-col overflow-hidden"
+        onClick={() => setShowModal(false)}
+        show={showModal}
+        enter="transition-opacity duration-300"
+        enterFrom="opacity-0"
         enterTo="opacity-100"
-        leave="transition-opacity duration-200"
+        leave="transition-opacity duration-300"
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <Modal hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
+        <Modal hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} setShowModal={setShowModal} />
       </Transition>
     </div>
   );
