@@ -42,45 +42,21 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
         <div>
           <h3 className="text-3xl mb-2">Evolution</h3>
 
-          <div className="flex items-center gap-4">
-            <div className="flex flex-col items-center gap-1">
-              <div className="relative w-9 lg:w-12">
-                <Image src={`/images/Sprite-${item.name.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={item.name} layout="responsive" width={80} height={80} priority />
-              </div>
-              <span className="text-center text-lg leading-4">{item.name}</span>
-            </div>
+          <div className="flex items-center gap-4 flex-wrap">
+            <ItemInfoSection itemName={item.name} />
 
             {evolvedWithArr.map((i) => (
               <div className="flex items-center gap-4" key={i}>
                 <span className="text-4xl">+</span>
-                <div className="flex flex-col items-center gap-1 cursor-pointer" onClick={() => setSelectedItem(i.trim())}>
-                  <div className="relative w-9 lg:w-12">
-                    <Image src={`/images/Sprite-${i.trim().replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={i.trim()} layout="responsive" width={80} height={80} priority />
-                  </div>
-                  <span className="text-center text-lg leading-4">{i.trim()}</span>
-                </div>
+                <ItemInfoSection itemName={i} />
               </div>
             ))}
 
             <span className="text-4xl">=</span>
 
-            {evolution && (
-              <div className="flex flex-col gap-1 items-center cursor-pointer" onClick={() => setSelectedItem(evolution.trim())}>
-                <div className="relative w-9 lg:w-12">
-                  <Image src={`/images/Sprite-${evolution.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={evolution.trim()} layout="responsive" width={80} height={80} priority />
-                </div>
-                <span className="text-center text-lg leading-4">{evolution.trim()}</span>
-              </div>
-            )}
+            {evolution && <ItemInfoSection itemName={evolution} />}
 
-            {union && (
-              <div className="flex flex-col gap-1 items-center cursor-pointer" onClick={() => setSelectedItem(union.trim())}>
-                <div className="relative w-9 lg:w-12">
-                  <Image src={`/images/Sprite-${union.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={union.trim()} layout="responsive" width={80} height={80} priority />
-                </div>
-                <span className="text-center text-lg leading-4">{union.trim()}</span>
-              </div>
-            )}
+            {union && <ItemInfoSection itemName={union} />}
           </div>
         </div>
       )}
@@ -113,6 +89,21 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
         </div>
       )}
     </>
+  );
+};
+
+interface ItemInfoSectionProps {
+  itemName: string;
+}
+
+const ItemInfoSection = ({ itemName }: ItemInfoSectionProps) => {
+  return (
+    <div className="flex flex-col items-center gap-1">
+      <div className="relative w-9 lg:w-12">
+        <Image src={`/images/Sprite-${itemName.trim().replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={itemName} layout="responsive" width={80} height={80} priority />
+      </div>
+      <span className="hidden lg:block text-center text-lg leading-4">{itemName}</span>
+    </div>
   );
 };
 
