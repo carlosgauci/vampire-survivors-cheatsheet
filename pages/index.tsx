@@ -18,21 +18,48 @@ const Home: NextPage = () => {
     <div className="max-h-screen h-full overflow-hidden flex flex-col">
       <Head>
         <title>Vampire Survivors Cheat Sheet</title>
-        <meta name="description" content="Quickly view all weapons, passive items, and evolutions in Vampire Survivors." />
+        <meta
+          name="description"
+          content="Quickly view all weapons, passive items, and evolutions in Vampire Survivors."
+        />
         <link rel="icon" href="/favicon.png" />
-        <link rel="preload" href="/fonts/VT323-Regular.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link
+          rel="preload"
+          href="/fonts/VT323-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </Head>
 
       {/* Bg img */}
       <div className="fixed top-0 left-0 h-screen w-screen overflow-hidden -z-10">
-        <Image alt="Vampire Survivors" src={bgImage} layout="fill" objectFit="cover" placeholder="blur" quality={80} />
+        <Image
+          alt="Vampire Survivors"
+          src={bgImage}
+          layout="fill"
+          objectFit="cover"
+          placeholder="blur"
+          quality={80}
+        />
       </div>
 
       <Header />
 
       <main className="container h-full flex gap-4 xl:gap-6 overflow-hidden mb-4 xl:mb-6">
-        <Items setHoveredItem={setHoveredItem} setSelectedItem={setSelectedItem} selectedItem={selectedItem} setShowModal={setShowModal} />
-        <InfoBox hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} modal={false} setShowModal={setShowModal} />
+        <Items
+          setHoveredItem={setHoveredItem}
+          setSelectedItem={setSelectedItem}
+          selectedItem={selectedItem}
+          setShowModal={setShowModal}
+        />
+        <InfoBox
+          hoveredItem={hoveredItem}
+          selectedItem={selectedItem}
+          setSelectedItem={setSelectedItem}
+          modal={false}
+          setShowModal={setShowModal}
+        />
       </main>
 
       <Transition
@@ -46,7 +73,12 @@ const Home: NextPage = () => {
         leaveFrom="opacity-100"
         leaveTo="opacity-0"
       >
-        <Modal hoveredItem={hoveredItem} selectedItem={selectedItem} setSelectedItem={setSelectedItem} setShowModal={setShowModal} />
+        <Modal
+          hoveredItem={hoveredItem}
+          selectedItem={selectedItem}
+          setSelectedItem={setSelectedItem}
+          setShowModal={setShowModal}
+        />
       </Transition>
     </div>
   );

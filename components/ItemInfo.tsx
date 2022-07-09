@@ -8,21 +8,41 @@ interface ItemInfoProps {
 }
 
 const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
-  const evolvedWith = item.info[item.info.findIndex((i) => i.title === "Evolved with")]?.content.split(/[,+]/) || [];
-  const unitedWith = item.info[item.info.findIndex((i) => i.title === "United with")]?.content.split(/[,+]/) || [];
-  const evolution = item.info[item.info.findIndex((i) => i.title === "Evolution")]?.content;
-  const union = item.info[item.info.findIndex((i) => i.title === "Union")]?.content;
+  const evolvedWith =
+    item.info[
+      item.info.findIndex((i) => i.title === "Evolved with")
+    ]?.content.split(/[,+]/) || [];
+  const unitedWith =
+    item.info[
+      item.info.findIndex((i) => i.title === "United with")
+    ]?.content.split(/[,+]/) || [];
+  const evolution =
+    item.info[item.info.findIndex((i) => i.title === "Evolution")]?.content;
+  const union =
+    item.info[item.info.findIndex((i) => i.title === "Union")]?.content;
   const evolvedWithArr = [...evolvedWith, ...unitedWith];
 
-  const effects = item.info[item.info.findIndex((i) => i.title === "Effects")]?.content;
-  const stageItem = item.info[item.info.findIndex((i) => i.title === "Stage item")]?.content;
+  const effects =
+    item.info[item.info.findIndex((i) => i.title === "Effects")]?.content;
+  const stageItem =
+    item.info[item.info.findIndex((i) => i.title === "Stage item")]?.content;
 
   return (
     <>
       {/* Image, name, desc */}
       <div className="flex gap-4 items-center">
         <div className="relative w-20 shrink-0">
-          <Image src={`/images/Sprite-${item.name.replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={item.name} layout="responsive" width={80} height={80} priority />
+          <Image
+            src={`/images/Sprite-${item.name.replace(
+              /[^a-zA-Z0-9]/g,
+              "_"
+            )}.png`}
+            alt={item.name}
+            layout="responsive"
+            width={80}
+            height={80}
+            priority
+          />
         </div>
 
         <div>
@@ -32,7 +52,9 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
       </div>
 
       {/* Effects */}
-      {effects && <p className="text-xl">Effects: {effects.split(".").join(". ")}</p>}
+      {effects && (
+        <p className="text-xl">Effects: {effects.split(".").join(". ")}</p>
+      )}
 
       {/* Stage Item? */}
       {stageItem && <p className="text-xl">Stage Item: {stageItem}.</p>}
@@ -43,20 +65,36 @@ const ItemInfo = ({ item, setSelectedItem }: ItemInfoProps) => {
           <h3 className="text-3xl mb-2">Evolution</h3>
 
           <div className="flex items-center gap-4 flex-wrap">
-            <ItemInfoSection itemName={item.name} setSelectedItem={setSelectedItem} />
+            <ItemInfoSection
+              itemName={item.name}
+              setSelectedItem={setSelectedItem}
+            />
 
             {evolvedWithArr.map((i) => (
               <div className="flex items-center gap-4" key={i}>
                 <span className="text-4xl">+</span>
-                <ItemInfoSection itemName={i} setSelectedItem={setSelectedItem} />
+                <ItemInfoSection
+                  itemName={i}
+                  setSelectedItem={setSelectedItem}
+                />
               </div>
             ))}
 
             <span className="text-4xl">=</span>
 
-            {evolution && <ItemInfoSection itemName={evolution} setSelectedItem={setSelectedItem} />}
+            {evolution && (
+              <ItemInfoSection
+                itemName={evolution}
+                setSelectedItem={setSelectedItem}
+              />
+            )}
 
-            {union && <ItemInfoSection itemName={union} setSelectedItem={setSelectedItem} />}
+            {union && (
+              <ItemInfoSection
+                itemName={union}
+                setSelectedItem={setSelectedItem}
+              />
+            )}
           </div>
         </div>
       )}
@@ -97,13 +135,30 @@ interface ItemInfoSectionProps {
   setSelectedItem: Dispatch<SetStateAction<string>>;
 }
 
-const ItemInfoSection = ({ itemName, setSelectedItem }: ItemInfoSectionProps) => {
+const ItemInfoSection = ({
+  itemName,
+  setSelectedItem,
+}: ItemInfoSectionProps) => {
   return (
-    <div className="flex flex-col items-center gap-1 cursor-pointer" onClick={() => setSelectedItem(itemName.trim())}>
+    <div
+      className="flex flex-col items-center gap-1 cursor-pointer"
+      onClick={() => setSelectedItem(itemName.trim())}
+    >
       <div className="relative w-9 lg:w-12">
-        <Image src={`/images/Sprite-${itemName.trim().replace(/[^a-zA-Z0-9]/g, "_")}.png`} alt={itemName} layout="responsive" width={80} height={80} priority />
+        <Image
+          src={`/images/Sprite-${itemName
+            .trim()
+            .replace(/[^a-zA-Z0-9]/g, "_")}.png`}
+          alt={itemName}
+          layout="responsive"
+          width={80}
+          height={80}
+          priority
+        />
       </div>
-      <span className="hidden lg:block text-center text-lg leading-4">{itemName}</span>
+      <span className="hidden lg:block text-center text-lg leading-4">
+        {itemName}
+      </span>
     </div>
   );
 };

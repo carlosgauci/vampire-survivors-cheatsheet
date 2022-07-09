@@ -5677,5 +5677,112 @@
       }
     ],
     "levels": []
+  },
+  {
+    "name": "La Robba",
+    "category": "Weapon",
+    "description": "Generates bouncing projectiles.",
+    "info": [
+      {
+        "title": "ID",
+        "content": "LAROBBA"
+      },
+      {
+        "title": "Type",
+        "content": "Normal"
+      },
+     
+      {
+        "title": "Max level",
+        "content": "8"
+      },
+      {
+        "title": "Rarity",
+        "content": "1"
+      },
+      {
+        "title": "Effects",
+        "content": "Scales with all stat bonuses."
+      }
+    ],
+    "stats": [
+      {
+        "title": "Damage",
+        "content": "10"
+      },
+      {
+        "title": "Area",
+        "content": "1"
+      },
+      {
+        "title": "Speed",
+        "content": "1"
+      },
+      {
+        "title": "Amount",
+        "content": "3"
+      },{
+        "title": "Duration",
+        "content": "0.2 secs"
+      },
+      {
+        "title": "Penetration",
+        "content": "Area of Effect"
+      },
+      {
+        "title": "Cooldown",
+        "content": "4.5 secs"
+      },
+      {
+        "title": "Projectile Interval",
+        "content": "0.3 seconds"
+      },
+      {
+        "title": "Knockback",
+        "content": "0.1"
+      },
+      {
+        "title": "Pool Limit",
+        "content": "50"
+      },
+      {
+        "title": "Blocked by walls",
+        "content": "No"
+      }
+    ],
+    "levels": [
+      {
+        "level": "1",
+        "bonus": "Generates bouncing projectiles."
+      },
+      {
+        "level": "2",
+        "bonus": "Fires 1 more projectile. Effect lasts 0.3 seconds longer."
+      },
+      {
+        "level": "3",
+        "bonus": "Base damage up by 10."
+      },
+      {
+        "level": "4",
+        "bonus": "Fires 1 more projectile. Effect lasts 0.3 seconds longer."
+      },
+      {
+        "level": "5",
+        "bonus": "Base damage up by 10. Base speed up by 50%."
+      },
+      {
+        "level": "6",
+        "bonus": "Fires 1 more projectile. Effect lasts 0.3 seconds longer."
+      },
+      {
+        "level": "7",
+        "bonus": "Base damage up by 10."
+      },
+      {
+        "level": "8",
+        "bonus": "Fires 1 more projectile. Effect lasts 0.3 seconds longer."
+      }
+    ]
   }
 ]
